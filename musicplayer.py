@@ -10,7 +10,7 @@ def play_music(file_path):
     pygame.mixer.music.play()
 
 # Define the directory where your music files are stored
-music_directory = r"C:\Users\md salahuddin\Music\musicsample"
+music_directory = r"directory path\"
 
 # List all music files in the directory
 music_files = [f for f in os.listdir(music_directory) if f.endswith(".mp3")]
